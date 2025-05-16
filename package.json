@@ -1,0 +1,40 @@
+{
+  "name": "lipa-na-mpesa-stk-push-",
+  "version": "1.0.0",
+  "description": "Using the safaricom stk push",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "localtunnel": "^2.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "ngrok": "^4.3.3",
+    "nodemailer": "^6.10.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wamaithaNyamu/Lipa-na-Mpesa-STK-Push-.git"
+  },
+  "author": "Wamaitha Nyamu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wamaithaNyamu/Lipa-na-Mpesa-STK-Push-/issues"
+  },
+  "homepage": "https://github.com/wamaithaNyamu/Lipa-na-Mpesa-STK-Push-#readme"
+}
