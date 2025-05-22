@@ -32,6 +32,8 @@ export const handleStkCallback = async (req, res) => {
       orderId: Order_ID,
       status: ResultCode === 0 ? 'success' : 'failed',
     };
+
+    console.log('Here is your callback data:', transactionData);
     
     // Extract metadata if transaction was successful
     if (ResultCode === 0 && CallbackMetadata && CallbackMetadata.Item) {
